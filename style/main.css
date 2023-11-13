@@ -1,6 +1,5 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 100%;
     background-color: bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -18,7 +17,28 @@ a{
 a:hover{
     background-color:aqua;
 }
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.carousel-item {
+    text-align: center;
+}
+.corousel-item {
+    max-height: 400px; /* Adjust the maximum height of the images */
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(224, 46, 46, 0.1);
+
+}
 img{
-    width: 50vw;
     height: 40vw;
+    width: 45vw;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
