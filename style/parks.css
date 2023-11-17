@@ -32,14 +32,26 @@ a:hover {
     margin:0.1em 0.1em 0 0;
     text-align: center;
 }
-h1{
+@keyframes changeColor {
+    100% {
+        color:blueviolet;
+    }
+    500% {
+        color: blue;
+    }
+    10% {
+        color: green;
+    }
+}
+.header {
     text-align: center;
     text-decoration: underline;
-    color:blueviolet
+    color: blueviolet;
+    animation: changeColor 2s infinite;
 }
 p{
     font-size:large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: cornflowerblue;
     text-align: center;   
 }
@@ -61,4 +73,7 @@ p{
     color: blueviolet;
     border-radius: 50px;
     
+}
+#result{
+    text-align: center;
 }

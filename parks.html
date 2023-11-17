@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parks</title>
 
     <link rel="stylesheet" href="./style/parks.css">
     <script src="./scripts/location-data.js"></script>
@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <h1>PARKS</h1>
+    <h1 class="header">PARKS</h1>
     <div id="anchorTag">
-        <a href="./index.html">Home</a>
-        <p>Some of the best park in the National. You can chose best of the location and the type of park you want too.
-        </p>
+        <a href="./index.html">Home</a>     
     </div>
+    <p>Some of the best park in the National. You can chose best of the location and the type of park you want too.
+    </p>
     <div class="card1">
         <select id="locationsList" title="location" name="location">
             <option value="">-- Select by Location --</option>
@@ -28,6 +28,7 @@
         </select>
 
     </div>
+    <br>
     <div id="result"></div>
 
     <footer class="container">
