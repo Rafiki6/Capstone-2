@@ -1,10 +1,64 @@
+body{
+
+    background-color: beige;
+}
+#anchorTag{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+
+}
+
+a:hover {
+    background-color: aqua;
+    text-decoration: underline;
+}
+.card{
+    width: 20vw;
+    height: 10vw;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin:0.1em 0.1em 0 0;
+    text-align: center;
+}
 h1{
     text-align: center;
     text-decoration: underline;
+    color:blueviolet
 }
 p{
     font-size:large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
-   
+    text-decoration: cornflowerblue;
+    text-align: center;   
+}
+.card1{
+    text-align: center;
+}
+#locationsList{
+    padding: 2px;
+    margin: 2px;
+    color: blueviolet;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+
+}
+#parksList{
+    padding: 2px;
+    margin: 2px;
+    color: blueviolet;
+    border-radius: 50px;
+    
 }

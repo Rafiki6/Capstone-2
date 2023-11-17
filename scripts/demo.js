@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () =>{
                 const elevPath = mountainsArray[i].elevation;
                 nameElement.innerHTML = `<h1>${namePath}</h1>`;
                 nameElement.innerHTML += descPath;
-                nameElement.innerHTML += `<h3>${elevPath}</h3>`;
+                nameElement.innerHTML += `<h3>Elevation: ${elevPath}</h3>`;
                
                 
             }

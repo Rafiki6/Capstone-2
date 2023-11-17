@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="./style/parks.css">
-    <script src="./scripts/locationData.js"></script>
-    <script src="./scripts/nationalParkData.js"></script>
-    <script src="./scripts/park.js"></script>
+    <script src="./scripts/location-data.js"></script>
+    <script src="./scripts/national-park-data.js"></script>
+    <script src="./scripts/park-type-data.js"></script>
 </head>
+
 <body>
     <h1>PARKS</h1>
-    <p>Some of the best park in the National. You can chose best of the location and the type of park you want too.</p>
-    <div class="card">
-        <select title="parks" name="parks" id="parks">
+    <div id="anchorTag">
+        <a href="./index.html">Home</a>
+        <p>Some of the best park in the National. You can chose best of the location and the type of park you want too.
+        </p>
+    </div>
+    <div class="card1">
+        <select id="locationsList" title="location" name="location">
             <option value="">-- Select by Location --</option>
         </select>
-        <select title="parks" name="parks" id="parks">
+        <select id="parksList" title="parks" name="parks">
             <option value="">-- Select by Park Type --</option>
         </select>
+
     </div>
-    <p id="description"></p>
+    <div id="result"></div>
+
+    <footer class="container">
+        <p>&copy; 2023 Muhamad Rafiki. All rights reserved.</p>
+    </footer>
 </body>
+<script src="./scripts/park.js"></script>
+
 </html>

@@ -1,12 +1,62 @@
-h1{
+body{
+background-color: beige;
+    
+}
+#anchorTag{
+    text-align: center;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    
+}
+
+a:hover {
+    background-color: aqua;
+    text-decoration: underline;
+    
+}
+#mountains{
+    color: blueviolet;
+}
+#sunriseSunsetInfo{
+    text-align: center;
+}
+@keyframes changeColor {
+    100% {
+        color:blueviolet;
+    }
+    500% {
+        color: blue;
+    }
+    10% {
+        color: green;
+    }
+}
+.header {
     text-align: center;
     text-decoration: underline;
+    color: blueviolet;
+    animation: changeColor 2s infinite;
 }
 p{
     font-size: large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: darkgreen;
 }
 .card{
     display:grid;
     justify-content: center;
+}
+.container p{
+    position: fixed;
+    
 }
